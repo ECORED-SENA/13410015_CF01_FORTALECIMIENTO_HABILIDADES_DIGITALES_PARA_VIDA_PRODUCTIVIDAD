@@ -258,14 +258,116 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Almacenamiento en la nube',
+      significado:
+        'modalidad que permite guardar información en servidores accesibles mediante internet para consultarla, editarla, compartirla o sincronizarla desde diferentes dispositivos.',
+    },
+    {
+      termino: 'Base de datos',
+      significado:
+        'conjunto estructurado de datos que permite almacenar, organizar, consultar y recuperar información mediante criterios definidos.',
+    },
+    {
+      termino: 'Copia de seguridad',
+      significado:
+        'duplicado de información importante que se conserva para facilitar su recuperación ante pérdida, eliminación, daño o alteración de los archivos originales.',
+    },
+    {
+      termino: 'Fiabilidad',
+      significado:
+        'grado de confianza que ofrece una información según la procedencia, autoría, actualidad, respaldo y posibilidad de verificar su contenido.',
+    },
+    {
+      termino: 'Huella digital',
+      significado:
+        'rastro de datos y actividades que se genera al utilizar internet, aplicaciones, dispositivos, plataformas y servicios digitales.',
+    },
+    {
+      termino: 'Integridad',
+      significado:
+        'propiedad que permite mantener la información completa, coherente y protegida frente a modificaciones o alteraciones no autorizadas.',
+    },
+    {
+      termino: 'Licenciamiento',
+      significado:
+        'mecanismo mediante el cual se establecen las condiciones para usar, copiar, distribuir o modificar una obra o recurso digital.',
+    },
+    {
+      termino: 'Malware',
+      significado:
+        'programa malicioso diseñado para dañar, alterar, bloquear, robar información o afectar el funcionamiento de un dispositivo o sistema.',
+    },
+    {
+      termino: 'Mitigación de riesgos',
+      significado:
+        'proceso orientado a reconocer amenazas, valorar sus posibles consecuencias y aplicar medidas que reduzcan su probabilidad de ocurrencia o su impacto.',
+    },
+    {
+      termino: 'Operadores lógicos',
+      significado:
+        'recursos utilizados para combinar, relacionar o excluir términos dentro de una consulta con el fin de delimitar y mejorar los resultados de búsqueda.',
+    },
+    {
+      termino: 'Phishing',
+      significado:
+        'práctica de engaño que utiliza mensajes o recursos falsos para intentar obtener contraseñas, códigos, información personal o datos financieros.',
+    },
+    {
+      termino: 'Protocolo de gestión de información digital',
+      significado:
+        'conjunto de reglas, pasos o criterios que orientan la clasificación, almacenamiento, denominación, acceso, actualización, respaldo y recuperación de la información.',
+    },
+    {
+      termino: 'Red pública',
+      significado:
+        'red digital disponible para múltiples usuarios, cuyas condiciones de seguridad y configuración no siempre están bajo el control de la persona que se conecta.',
+    },
+    {
+      termino: 'Seguridad digital',
+      significado:
+        'conjunto de prácticas, herramientas y procedimientos orientados a proteger información, dispositivos, cuentas, comunicaciones y servicios tecnológicos frente a riesgos y accesos no autorizados.',
+    },
+    {
+      termino: 'Vulnerabilidad digital',
+      significado:
+        'debilidad que puede ser aprovechada para afectar un dispositivo, cuenta, red, aplicación o archivo y que puede originarse en factores técnicos, humanos, físicos, de configuración o de procedimiento.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Congreso de Colombia. (2009, 5 de enero). Ley 1273 de 2009. Por medio de la cual se modifica el Código Penal, se crea un nuevo bien jurídico tutelado —denominado «de la protección de la información y de los datos»— y se preservan integralmente los sistemas que utilicen las tecnologías de la información y las comunicaciones, entre otras disposiciones. SUIN-Juriscol.',
+      link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=1676699',
+    },
+    {
+      referencia:
+        'Congreso de Colombia. (2012, 17 de octubre). Ley Estatutaria 1581 de 2012. Por la cual se dictan disposiciones generales para la protección de datos personales. Departamento Administrativo de la Función Pública.',
+      link: 'https://www1.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981',
+    },
+    {
+      referencia:
+        'Equipo editorial de IONOS. (2025, 6 de noviembre). Almacenamiento en la nube: qué es y cómo funciona. IONOS.',
+      link: 'https://www.ionos.com/es-us/digitalguide/servidores/know-how/almacenamiento-en-la-nube-que-es-y-como-funciona/',
+    },
+    {
+      referencia:
+        'MCM Business Tech-Co. (s. f.). Amenazas digitales: ¿Qué son y cómo prevenirlas en tu empresa?',
+      link: 'https://blog.mcmtechco.com/amenazas-digitales',
+    },
+    {
+      referencia:
+        'National Institute of Standards and Technology. (s. f.). 2FA.Computer Security Resource Center.',
+      link: 'https://csrc.nist.gov/glossary/term/2fa',
+    },
+    {
+      referencia:
+        'National Institute of Standards and Technology. (2025, 20 de agosto). How do I create a good password?',
+      link: 'https://www.nist.gov/cybersecurity-and-privacy/how-do-i-create-good-password',
+    },
+    {
+      referencia:
+        'Patterson, N. (2025, 19 de septiembre). What is cybersecurity and why is it important? Southern New Hampshire University.',
+      link: 'https://www.snhu.edu/about-us/newsroom/stem/what-is-cyber-security',
     },
   ],
   creditos: [
@@ -274,13 +376,9 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Líder del Ecosistema',
+          cargo:
+            'Profesional 06 - Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
-        },
-        {
-          nombre: 'Olga Constanza Bermúdez',
-          cargo: 'Responsable de línea de producción Huila',
-          centro: 'Dirección General',
         },
       ],
     },
@@ -288,9 +386,40 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: '',
-          cargo: '',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Ana Roció Rosero Cortes',
+          cargo: 'Experta temática',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Leonardo Camacho Acevedo',
+          cargo: 'Experto temático',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Alba Mireya Orjuela Toro',
+          cargo: 'Experta temática',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Juan Pablo Cristancho Cubillos',
+          cargo: 'Experto temático',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'María Angelica Gómez Morales',
+          cargo: 'Experta temática',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Paula Marcela Vidal Quintero',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -298,20 +427,50 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: '',
+          nombre: 'Jorge David Barbosa Losada',
           cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
+          nombre: 'Cristian Fernando Martínez Sánchez',
           cargo: 'Desarrollador <i>full stack</i>',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
-          cargo: '',
+          nombre: 'Alejandro Delgado Acosta',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Juan Pablo Rojas Polania',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Carlos Eduardo Garavito Parada',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'María Carolina Tamayo López',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'German Acosta Ramos',
+          cargo: 'Locución',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -321,13 +480,25 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
+          nombre: 'Ricardo Oliveros Zambrano ',
           cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Anyerson Wilfredo Pizo Ossa',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
