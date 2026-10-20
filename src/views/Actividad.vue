@@ -27,35 +27,30 @@ export default {
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
-        {
+{
           id: 1,
-          texto:
-            '¿Qué característica distingue principalmente a la información digital?',
+          texto: '¿Qué característica distingue principalmente a la información digital?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Solo puede conservarse en documentos impresos y medios físicos locales.',
+              texto: 'Solo puede conservarse en documentos impresos y medios físicos locales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Puede crearse, almacenarse, modificarse y compartirse electrónicamente.',
+              texto: 'Puede crearse, almacenarse, modificarse y compartirse electrónicamente.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto:
-                'Debe permanecer sin cambios después de ser creada y almacenada siempre.',
+              texto: 'Debe permanecer sin cambios después de ser creada y almacenada siempre.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Únicamente puede consultarse mediante computadores personales privados.',
+              texto: 'Únicamente puede consultarse mediante computadores personales privados.',
               esCorrecta: false,
             },
           ],
@@ -70,26 +65,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto:
-                'Cuando se organiza, interpreta y relaciona con un contexto.',
+              texto: 'Cuando se organiza, interpreta y relaciona con un contexto.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto:
-                'Cuando se almacena sin alterar el contenido ni su contexto.',
+              texto: 'Cuando se almacena sin alterar el contenido ni su contexto.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'Cuando se comparte mediante plataformas y medios digitales.',
+              texto: 'Cuando se comparte mediante plataformas y medios digitales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Cuando se convierte automáticamente en un archivo de video.',
+              texto: 'Cuando se convierte automáticamente en un archivo de video.',
               esCorrecta: false,
             },
           ],
@@ -98,8 +89,7 @@ export default {
         },
         {
           id: 3,
-          texto:
-            '¿Qué elemento de calidad determina si la información contiene todos los datos necesarios?',
+          texto: '¿Qué elemento de calidad determina si la información contiene todos los datos necesarios?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
@@ -129,33 +119,28 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Cuál es una práctica adecuada para organizar archivos digitales?',
+          texto: '¿Cuál es una práctica adecuada para organizar archivos digitales?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Guardar todos los documentos dentro de una única carpeta principal.',
+              texto: 'Guardar todos los documentos dentro de una única carpeta principal.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Usar nombres generales que puedan repetirse en diferentes archivos.',
+              texto: 'Usar nombres generales que puedan repetirse en diferentes archivos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'Aplicar nombres claros y diferenciar las versiones de los archivos.',
+              texto: 'Aplicar nombres claros y diferenciar las versiones de los archivos.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto:
-                'Eliminar fechas y códigos de los archivos con diferentes versiones.',
+              texto: 'Eliminar fechas y códigos de los archivos con diferentes versiones.',
               esCorrecta: false,
             },
           ],
@@ -164,33 +149,28 @@ export default {
         },
         {
           id: 5,
-          texto:
-            '¿Qué herramienta permite consultar información organizada y especializada bajo criterios definidos?',
+          texto: '¿Qué herramienta permite consultar información organizada y especializada bajo criterios definidos?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Un navegador para consultar distintos sitios de internet.',
+              texto: 'Un navegador para consultar distintos sitios de internet.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Un buscador para ubicar páginas con palabras específicas.',
+              texto: 'Un buscador para ubicar páginas con palabras específicas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'Una base de datos para consultar recursos especializados.',
+              texto: 'Una base de datos para consultar recursos especializados.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto:
-                'Una aplicación para guardar archivos en medios digitales.',
+              texto: 'Una aplicación para guardar archivos en medios digitales.',
               esCorrecta: false,
             },
           ],
@@ -199,33 +179,28 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Para qué se utiliza el operador lógico AND en una búsqueda digital?',
+          texto: '¿Para qué se utiliza el operador lógico AND en una búsqueda digital?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Para excluir una palabra específica de todos los resultados encontrados.',
+              texto: 'Para excluir una palabra específica de todos los resultados encontrados.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para localizar resultados que contengan simultáneamente varios términos.',
+              texto: 'Para localizar resultados que contengan simultáneamente varios términos.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto:
-                'Para buscar únicamente documentos con un formato específico de archivos.',
+              texto: 'Para buscar únicamente documentos con un formato específico de archivos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Para buscar información únicamente en un sitio web previamente definido.',
+              texto: 'Para buscar información únicamente en un sitio web previamente definido.',
               esCorrecta: false,
             },
           ],
@@ -234,33 +209,28 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Qué característica constituye una señal de mayor confiabilidad de una fuente digital?',
+          texto: '¿Qué característica constituye una señal de mayor confiabilidad de una fuente digital?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Identificar autor, fecha y referencias que puedan verificarse.',
+              texto: 'Identificar autor, fecha y referencias que puedan verificarse.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto:
-                'Presentar títulos llamativos sin citar al autor del contenido.',
+              texto: 'Presentar títulos llamativos sin citar al autor del contenido.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'Incluir publicidad junto a afirmaciones sin ninguna evidencia.',
+              texto: 'Incluir publicidad junto a afirmaciones sin ninguna evidencia.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Pedir datos personales innecesarios para consultar el recurso.',
+              texto: 'Pedir datos personales innecesarios para consultar el recurso.',
               esCorrecta: false,
             },
           ],
@@ -269,33 +239,28 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Qué debe hacerse antes de reutilizar un recurso descargado de internet?',
+          texto: '¿Qué debe hacerse antes de reutilizar un recurso descargado de internet?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Modificarlo libremente porque se puede consultar en internet.',
+              texto: 'Modificarlo libremente porque se puede consultar en internet.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Eliminar créditos antes de modificar el recurso ya utilizado.',
+              texto: 'Eliminar créditos antes de modificar el recurso ya utilizado.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'Compartirlo si puede descargarse directamente sin contraseña.',
+              texto: 'Compartirlo si puede descargarse directamente sin contraseña.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Revisar su autoría, licencia y condiciones permitidas de uso.',
+              texto: 'Revisar su autoría, licencia y condiciones permitidas de uso.',
               esCorrecta: true,
             },
           ],
@@ -304,33 +269,28 @@ export default {
         },
         {
           id: 9,
-          texto:
-            '¿Qué caracteriza una adecuada gestión de la información digital?',
+          texto: '¿Qué caracteriza una adecuada gestión de la información digital?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Guardar los archivos sin establecer criterios adecuados para su organización.',
+              texto: 'Guardar los archivos sin establecer criterios adecuados para su organización.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Organizar, almacenar, proteger, consultar y recuperar los recursos digitales.',
+              texto: 'Organizar, almacenar, proteger, consultar y recuperar los recursos digitales.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto:
-                'Mantener únicamente una copia de todos los archivos considerados importantes.',
+              texto: 'Mantener únicamente una copia de todos los archivos considerados importantes.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Compartir recursos mediante permisos abiertos para cualquier usuario externo.',
+              texto: 'Compartir recursos mediante permisos abiertos para cualquier usuario externo.',
               esCorrecta: false,
             },
           ],
@@ -339,33 +299,28 @@ export default {
         },
         {
           id: 10,
-          texto:
-            '¿Qué ventaja caracteriza principalmente al almacenamiento en la nube?',
+          texto: '¿Qué ventaja caracteriza principalmente al almacenamiento en la nube?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Funciona siempre sin internet ni usar ningún servicio digital externo.',
+              texto: 'Funciona siempre sin internet ni usar ningún servicio digital externo.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Elimina completamente los riesgos relacionados con permisos de acceso.',
+              texto: 'Elimina completamente los riesgos relacionados con permisos de acceso.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'Facilita acceder a archivos desde diferentes dispositivos autorizados.',
+              texto: 'Facilita acceder a archivos desde diferentes dispositivos autorizados.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto:
-                'Impide modificar los archivos después de haberlos guardado en la nube.',
+              texto: 'Impide modificar los archivos después de haberlos guardado en la nube.',
               esCorrecta: false,
             },
           ],
@@ -374,33 +329,28 @@ export default {
         },
         {
           id: 11,
-          texto:
-            '¿Cuál es la finalidad principal de realizar copias de seguridad?',
+          texto: '¿Cuál es la finalidad principal de realizar copias de seguridad?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Evitar que cada archivo deba organizarse mediante carpetas y subcarpetas.',
+              texto: 'Evitar que cada archivo deba organizarse mediante carpetas y subcarpetas.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Permitir que cualquier usuario acceda libremente a información reservada.',
+              texto: 'Permitir que cualquier usuario acceda libremente a información reservada.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'Reemplazar las medidas de seguridad instaladas en todos los dispositivos.',
+              texto: 'Reemplazar las medidas de seguridad instaladas en todos los dispositivos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Recuperar información cuando se pierde, elimina o altera accidentalmente.',
+              texto: 'Recuperar información cuando se pierde, elimina o altera accidentalmente.',
               esCorrecta: true,
             },
           ],
@@ -409,33 +359,28 @@ export default {
         },
         {
           id: 12,
-          texto:
-            '¿Qué práctica reduce un riesgo frecuente al utilizar dispositivos digitales?',
+          texto: '¿Qué práctica reduce un riesgo frecuente al utilizar dispositivos digitales?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Mantener actualizado el sistema y utilizar bloqueo de pantalla.',
+              texto: 'Mantener actualizado el sistema y utilizar bloqueo de pantalla.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto:
-                'Instalar aplicaciones obtenidas de cualquier fuente disponible.',
+              texto: 'Instalar aplicaciones obtenidas de cualquier fuente disponible.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'Conectar memorias desconocidas sin hacer revisión de seguridad.',
+              texto: 'Conectar memorias desconocidas sin hacer revisión de seguridad.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Compartir contraseñas cuando otras personas utilizan el equipo.',
+              texto: 'Compartir contraseñas cuando otras personas utilizan el equipo.',
               esCorrecta: false,
             },
           ],
@@ -444,33 +389,28 @@ export default {
         },
         {
           id: 13,
-          texto:
-            '¿Qué característica diferencia una red pública de una red privada?',
+          texto: '¿Qué característica diferencia una red pública de una red privada?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Garantiza mayor control sobre cada dispositivo conectado en una red.',
+              texto: 'Garantiza mayor control sobre cada dispositivo conectado en una red.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Solo permite conectarse a personas autorizadas por una organización.',
+              texto: 'Solo permite conectarse a personas autorizadas por una organización.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'Presenta mayor exposición y requiere precaución con datos sensibles.',
+              texto: 'Presenta mayor exposición y requiere precaución con datos sensibles.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto:
-                'Resulta segura por completo cuando emplea una contraseña compartida.',
+              texto: 'Resulta segura por completo cuando emplea una contraseña compartida.',
               esCorrecta: false,
             },
           ],
@@ -479,33 +419,28 @@ export default {
         },
         {
           id: 14,
-          texto:
-            '¿Qué riesgo puede presentarse al utilizar una red pública para actividades sensibles?',
+          texto: '¿Qué riesgo puede presentarse al utilizar una red pública para actividades sensibles?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'La eliminación automática de documentos guardados de forma local.',
+              texto: 'La eliminación automática de documentos guardados de forma local.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'La posible interceptación de datos durante la conexión utilizada.',
+              texto: 'La posible interceptación de datos durante la conexión utilizada.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto:
-                'La actualización necesaria del sistema operativo del dispositivo.',
+              texto: 'La actualización necesaria del sistema operativo del dispositivo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'La creación automática de respaldos para cada archivo almacenado.',
+              texto: 'La creación automática de respaldos para cada archivo almacenado.',
               esCorrecta: false,
             },
           ],
@@ -520,26 +455,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto:
-                'Conservar actualizado el sistema operativo del dispositivo utilizado.',
+              texto: 'Conservar actualizado el sistema operativo del dispositivo utilizado.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Configurar adecuadamente permisos de acceso de un archivo compartido.',
+              texto: 'Configurar adecuadamente permisos de acceso de un archivo compartido.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'Utilizar bloqueo de pantalla cuando el equipo permanezca desatendido.',
+              texto: 'Utilizar bloqueo de pantalla cuando el equipo permanezca desatendido.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Abrir enlaces sospechosos o compartir contraseñas con otras personas.',
+              texto: 'Abrir enlaces sospechosos o compartir contraseñas con otras personas.',
               esCorrecta: true,
             },
           ],
@@ -554,26 +485,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto:
-                'Usar una contraseña segura y activar la verificación en dos pasos.',
+              texto: 'Usar una contraseña segura y activar la verificación en dos pasos.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto:
-                'Usar la misma contraseña personal en todos los servicios en línea.',
+              texto: 'Usar la misma contraseña personal en todos los servicios en línea.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'Dejar sesiones abiertas en dispositivos que son de uso compartido.',
+              texto: 'Dejar sesiones abiertas en dispositivos que son de uso compartido.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Guardar públicamente códigos utilizados para recuperar una cuenta.',
+              texto: 'Guardar públicamente códigos utilizados para recuperar una cuenta.',
               esCorrecta: false,
             },
           ],
@@ -588,26 +515,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto:
-                'Un sitio registra automáticamente datos técnicos durante la consulta.',
+              texto: 'Un sitio registra automáticamente datos técnicos durante la consulta.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Una persona publica voluntariamente una fotografía en una plataforma.',
+              texto: 'Una persona publica voluntariamente una fotografía en una plataforma.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto:
-                'Una aplicación recopila ubicación aproximada sin publicar esos datos.',
+              texto: 'Una aplicación recopila ubicación aproximada sin publicar esos datos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Una plataforma almacena registros técnicos durante el acceso digital.',
+              texto: 'Una plataforma almacena registros técnicos durante el acceso digital.',
               esCorrecta: false,
             },
           ],
@@ -616,33 +539,28 @@ export default {
         },
         {
           id: 18,
-          texto:
-            'Ante la sospecha de que una cuenta digital fue comprometida, ¿qué acción inicial se debe realizar?',
+          texto: 'Ante la sospecha de que una cuenta digital fue comprometida, ¿qué acción inicial se debe realizar?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Mantener la contraseña y esperar que el problema vuelva a ocurrir.',
+              texto: 'Mantener la contraseña y esperar que el problema vuelva a ocurrir.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Eliminar los archivos del dispositivo antes de revisar esa cuenta.',
+              texto: 'Eliminar los archivos del dispositivo antes de revisar esa cuenta.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'Publicar el incidente en redes antes de revisar la cuenta digital.',
+              texto: 'Publicar el incidente en redes antes de revisar la cuenta digital.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar la contraseña de la cuenta afectada y revisar sus accesos.',
+              texto: 'Cambiar la contraseña de la cuenta afectada y revisar sus accesos.',
               esCorrecta: true,
             },
           ],
@@ -651,33 +569,28 @@ export default {
         },
         {
           id: 19,
-          texto:
-            '¿Qué práctica contribuye a proteger la reputación y la información personal en línea?',
+          texto: '¿Qué práctica contribuye a proteger la reputación y la información personal en línea?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Publicar datos personales para facilitar identificación en plataformas.',
+              texto: 'Publicar datos personales para facilitar identificación en plataformas.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Aceptar todos los permisos solicitados por las aplicaciones instaladas.',
+              texto: 'Aceptar todos los permisos solicitados por las aplicaciones instaladas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'Decidir qué información compartir, con quién y mediante qué plataforma.',
+              texto: 'Decidir qué información compartir, con quién y mediante qué plataforma.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto:
-                'Compartir código de verificación con contactos considerados confiables.',
+              texto: 'Compartir código de verificación con contactos considerados confiables.',
               esCorrecta: false,
             },
           ],
@@ -686,39 +599,34 @@ export default {
         },
         {
           id: 20,
-          texto:
-            '¿Qué debe incluir un plan básico de mitigación de riesgos digitales?',
+          texto: '¿Qué debe incluir un plan básico de mitigación de riesgos digitales?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Identificar riesgos, establecer medidas y definir acciones de respuesta.',
+              texto: 'Identificar riesgos, establecer medidas y definir acciones de respuesta.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto:
-                'Eliminar todas las herramientas digitales utilizadas en las actividades.',
+              texto: 'Eliminar todas las herramientas digitales utilizadas en las actividades.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'Permitir accesos generales para simplificar toda gestión de información.',
+              texto: 'Permitir accesos generales para simplificar toda gestión de información.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Aplicar medidas únicamente después de que ocurra un incidente muy grave.',
+              texto: 'Aplicar medidas únicamente después de que ocurra un incidente muy grave.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
+        }
       ],
       mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
       mensaje_final_reprobado:
